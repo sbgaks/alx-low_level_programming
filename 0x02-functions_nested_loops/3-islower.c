@@ -2,6 +2,8 @@
 
 /**
  * _islower - checks for lowercase character
+ * 
+ * @c: subject of test
  *
  * Return: 1 if lowercase 0 if otherwise
  *
