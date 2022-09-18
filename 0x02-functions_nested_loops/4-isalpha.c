@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - checks for lowercase character
+ * _isalpha - checks for alphabets
  * 
  * @c: subject of test
  *
