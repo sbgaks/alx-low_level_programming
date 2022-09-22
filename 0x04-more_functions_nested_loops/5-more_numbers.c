@@ -6,7 +6,7 @@
  */
 void more_numbers(void)
 {
-int n == 0;
+int n = 0;
 
 int number;
 
