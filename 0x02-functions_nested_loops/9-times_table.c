@@ -18,7 +18,7 @@ while (y <= 9)
 	z = 0;
 	while (z <= 9)
 	{
-		r = x * y;
+		r = y * z;
 		if (z == 0)
 		{
 		_putchar('0' + r);
@@ -40,7 +40,7 @@ while (y <= 9)
 		}
 		z++;
 	}
-	_putchar('\n')
+	_putchar('\n');
 	y++;
 }
 }
