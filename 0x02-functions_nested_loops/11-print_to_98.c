@@ -19,10 +19,10 @@ _putchar(' ');
 }
 }
 else if (n > 98)
-for (number = n; number => 98; number--)
+for (number = n; number >= 98; number--)
 {
 	_putchar(0 + number);
 	_putchar(',');
 	_putchar(' ');
 }
-
+}
