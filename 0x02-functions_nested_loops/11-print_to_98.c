@@ -9,17 +9,16 @@
 
 void print_to_98(int n)
 {
-int number;
-if (n < 98)
+while (n < 98)
 {
-for (number = n; number <= 98; number++)
+printf("%i, ", n);
+n++;
+}
+while (n > 98)
 {
-printf("%i, ", number);
+printf("%i, ", n);
+n--;
 }
-}
-else if (n > 98)
-for (number = n; number >= 98; number--)
-{
-printf("%i, ", number);
-}
+printf("98");
+putchar('\n');
 }
